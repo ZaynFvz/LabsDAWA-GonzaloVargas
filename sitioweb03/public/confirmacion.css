@@ -1,0 +1,79 @@
+body {
+    background: #f77858;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    max-width: 600px; /* $form-width */
+    margin: 0 auto;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF; /* $white */
+    max-width: 300px; /* $form-width */
+    margin: 0 auto 100px;
+    padding: 30px;
+    border-radius: 3px; /* +border-top-radius(3px) +border-bottom-radius(3px) */
+    text-align: center;
+}
+
+.form .thumbnail {
+    background: #EF3B3A; /* $accent */
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 30px;
+    padding: 50px 30px;
+    border-radius: 100%; /* +border-top-radius(100%) +border-bottom-radius(100%) */
+    box-sizing: border-box; /* +box-sizing(border-box) */
+}
+
+.form .thumbnail img {
+    display: block;
+    width: 100%;
+}
+
+.form input {
+    outline: 0;
+    background: #F5F5F5; /* darken($white, 5%) */
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    border-radius: 3px; /* +border-top-radius(3px) +border-bottom-radius(3px) */
+    box-sizing: border-box; /* +box-sizing(border-box) */
+    font-size: 14px;
+}
+
+.form button {
+    outline: 0;
+    background: #EF3B3A; /* $accent */
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    border-radius: 3px; /* +border-top-radius(3px) +border-bottom-radius(3px) */
+    color: #FFFFFF; /* $white */
+    font-size: 14px;
+    transition: all 0.3s ease; /* +transition(all .3 ease) */
+    cursor: pointer;
+}
+
+.form button:hover {
+    background: #D20000; /* #0056b3 */
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: #B3B3B3; /* darken($white, 30%) */
+    font-size: 12px;
+}
+
+.form .message a {
+    color: #EF3B3A; /* $accent */
+    text-decoration: none;
+}
